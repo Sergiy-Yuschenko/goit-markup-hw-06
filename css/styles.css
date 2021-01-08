@@ -231,9 +231,7 @@ img {
 /* ============== END HEADER ============== */
 
 /* ============== HERO SECTION ============== */
-.hero-section {
-        background-color: var(--backgr-color-first);
-}
+
 .hero-section > .container {
         /*background-color: var(--backgr-color-first);*/
         flex-direction: column;

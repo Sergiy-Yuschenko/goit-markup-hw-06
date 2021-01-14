@@ -895,10 +895,13 @@ padding: 27px 0;
 }
 
 .modal-form-field {
+        margin-bottom: 10px;
+
         font-weight: 400;
         font-size: 12px;
         line-height: 1.167;
         letter-spacing: 0.01em;
+
 }
 
 .modal-form-input-wrapper{
@@ -906,7 +909,6 @@ padding: 27px 0;
         height: 100%;
         position: relative;
         margin-top: 4px;
-        margin-bottom: 10px;
 }
 
 .modal-form-input {
@@ -980,6 +982,7 @@ padding: 27px 0;
         font-size: 14px;
         line-height: 1.714;
         letter-spacing: 0.03em;
+        white-space: pre;
         display: flex;
         align-items: center;
         margin-bottom: 30px;
@@ -996,7 +999,7 @@ padding: 27px 0;
 }
 
 .modal-form-policy-link {
-        white-space: pre;
+        color: var(--accent-color);
 }
 
 .modal-form-policy:checked + .modal-form-policy-text::before {

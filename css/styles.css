@@ -621,6 +621,7 @@ padding: 27px 0;
 
 .subscription-form {
         margin-left: 93px;
+
 }
 
 .subscription-form-title {
@@ -640,6 +641,10 @@ padding: 27px 0;
         border-radius: 4px;
         background: transparent;
         padding-left: 16px;
+}
+
+.subscription-form-field {
+        display: inline-block;
 }
 
 .subscription-form-button {
